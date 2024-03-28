@@ -1,4 +1,4 @@
-package com.picem.PicEm;
+package com.piccers.PicEm;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
