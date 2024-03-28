@@ -69,6 +69,17 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>com.microsoft.azure</groupId>
+				<artifactId>>azure-webapp-maven-plugin</artifactId>
+				<version>x.xx.x</version>
+				<configuration>
+					<schemaVersion>v2</schemaVersion>
+					<resourceGroup>your-resourcegroup-name</resourceGroup>
+					<appName>your-app-name</appName>
+					...
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
